@@ -22,6 +22,8 @@ export const sheep = require('./assets/images/sheep.png');
 export const shrimp = require('./assets/images/shrimp.png');
 export const delivery = require('./assets/images/delivery.png');
 export const offers = require('./assets/images/offers.png');
+export const location = require('./assets/images/location.png');
+export const jaggi = require('./assets/images/jaggi.jpeg');
 
 export const COLORS = {
 	// base colors
@@ -31,7 +33,7 @@ export const COLORS = {
 	// colors
 	black: "#000",
 	white: "#FFFFFF",
-	lightGray: "#f8f8f8",
+	lightGray: "#f2f3f4",
 };
 
 export const SIZES = {
@@ -96,5 +98,7 @@ export default {
 	sheep,
 	shrimp,
 	delivery,
-	offers
+	offers,
+	location,
+	jaggi
 }

@@ -1,7 +1,8 @@
 import React from 'react';
 
 import {
-	SafeAreaView
+	SafeAreaView,
+	View
 } from 'react-native';
 
 import {
@@ -11,13 +12,23 @@ import {
 	Recent
 } from '../components';
 
+import {
+	COLORS
+} from '../../constants';
+
 function Home() {
 	return (
-		<SafeAreaView>
+		<SafeAreaView
+			style={{
+				backgroundColor: COLORS.lightGray
+		 }}
+		>
 			<Header />
+			
 			<Trending />
 			<Category />
 			<Recent />
+			
 		</SafeAreaView>
 	)
 }
